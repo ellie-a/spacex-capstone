@@ -1,22 +1,29 @@
-// body, html {
-// 	background-image: url(http://opengameart.org/sites/default/files/seamless%20space_0.PNG);
-//   background-color: black;
-//   animation: space-animation 60s linear infinite;
-// }
-
 body, html {
   background-image: url('../img/stars.jpg');
   background-color: black;
   animation:   space-animation 60s linear infinite;
 }
 
-@keyframes animate {
-	from {
-		background-position: 184px 0;
-	}
+.logo {
+  @include positioning(900px, 123px, absolute, 20%, 25%);
+  background-image: url('../img/logo.png');
+
 }
-@keyframes space-animation {
-  from {
-      background-position-y: -100%;
+
+.mars {
+  @include positioning(700px, 700px, absolute, 40%, 29%);
+  background-image: url('../img/mars2.png');
+  display: flex;
+  // align-content: center;
+  justify-content: center;
+
+  a {
+    margin-top: 35%;
+    @include text($white, 3em, $main, 5px);
+    text-decoration: none;
   }
+  a:hover {
+    text-shadow: 5px 4px 5px  rgb(174, 238, 238);
+  }
+
 }

@@ -4,16 +4,42 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body, html {
-  background-image: url("../img/stars.jpg");
-  background-color: black;
-  animation: space-animation 60s linear infinite; }
-
 @keyframes animate {
   from {
     background-position: 184px 0; } }
 @keyframes space-animation {
   from {
     background-position-y: -100%; } }
+body, html {
+  background-image: url("../img/stars.jpg");
+  background-color: black;
+  animation: space-animation 60s linear infinite; }
+
+.logo {
+  width: 900px;
+  height: 123px;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  background-image: url("../img/logo.png"); }
+
+.mars {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 29%;
+  top: 40%;
+  background-image: url("../img/mars2.png");
+  display: flex;
+  justify-content: center; }
+  .mars a {
+    margin-top: 35%;
+    color: white;
+    font-size: 3em;
+    font-family: "Exo 2", sans-serif;
+    letter-spacing: 5px;
+    text-decoration: none; }
+  .mars a:hover {
+    text-shadow: 5px 4px 5px #aeeeee; }
 
 /*# sourceMappingURL=application.css.map */
