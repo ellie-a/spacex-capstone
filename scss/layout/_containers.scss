@@ -1,4 +1,6 @@
-body, html {
+//landing page
+
+#index {
   background-image: url('../img/stars.jpg');
   background-color: black;
   animation:   space-animation 60s linear infinite;
@@ -7,14 +9,12 @@ body, html {
 .logo {
   @include positioning(900px, 123px, absolute, 20%, 25%);
   background-image: url('../img/logo.png');
-
 }
 
 .mars {
   @include positioning(700px, 700px, absolute, 40%, 29%);
   background-image: url('../img/mars2.png');
   display: flex;
-  // align-content: center;
   justify-content: center;
 
   a {
@@ -25,5 +25,68 @@ body, html {
   a:hover {
     text-shadow: 5px 4px 5px  rgb(174, 238, 238);
   }
+}
 
+//about page
+
+#about {
+  padding: 0;
+  margin: 0;
+}
+
+.mission {
+    background-image: url('../img/about3.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    h1 {
+      padding: 0;
+      margin: 0;
+      color: $white;
+    }
+}
+
+.mission-info {
+  height: 480px;
+}
+.time-line {
+  background-image: url('../img/about3.jpg');
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.time-info {
+  height: 480px;
+}
+
+.future {
+  background-image: url('../img/about3.jpg');
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.future-info {
+  height: 300px;
+}
+
+.end {
+  background-image: url('../img/about3.jpg');
+height: 450px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
 }

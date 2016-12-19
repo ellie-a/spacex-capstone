@@ -10,7 +10,7 @@ html {
 @keyframes space-animation {
   from {
     background-position-y: -100%; } }
-body, html {
+#index {
   background-image: url("../img/stars.jpg");
   background-color: black;
   animation: space-animation 60s linear infinite; }
@@ -41,5 +41,58 @@ body, html {
     text-decoration: none; }
   .mars a:hover {
     text-shadow: 5px 4px 5px #aeeeee; }
+
+#about {
+  padding: 0;
+  margin: 0; }
+
+.mission {
+  background-image: url("../img/about3.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; }
+  .mission h1 {
+    padding: 0;
+    margin: 0;
+    color: white; }
+
+.mission-info {
+  height: 480px; }
+
+.time-line {
+  background-image: url("../img/about3.jpg");
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; }
+
+.time-info {
+  height: 480px; }
+
+.future {
+  background-image: url("../img/about3.jpg");
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; }
+
+.future-info {
+  height: 300px; }
+
+.end {
+  background-image: url("../img/about3.jpg");
+  height: 450px;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; }
 
 /*# sourceMappingURL=application.css.map */
