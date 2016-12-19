@@ -1,0 +1,22 @@
+// body, html {
+// 	background-image: url(http://opengameart.org/sites/default/files/seamless%20space_0.PNG);
+//   background-color: black;
+//   animation: space-animation 60s linear infinite;
+// }
+
+body, html {
+  background-image: url('../img/stars.jpg');
+  background-color: black;
+  animation:   space-animation 60s linear infinite;
+}
+
+@keyframes animate {
+	from {
+		background-position: 184px 0;
+	}
+}
+@keyframes space-animation {
+  from {
+      background-position-y: -100%;
+  }
+}

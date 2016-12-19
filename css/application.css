@@ -4,7 +4,16 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body {
-  background-color: tomato; }
+body, html {
+  background-image: url("../img/stars.jpg");
+  background-color: black;
+  animation: space-animation 60s linear infinite; }
+
+@keyframes animate {
+  from {
+    background-position: 184px 0; } }
+@keyframes space-animation {
+  from {
+    background-position-y: -100%; } }
 
 /*# sourceMappingURL=application.css.map */
