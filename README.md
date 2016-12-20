@@ -2,7 +2,7 @@
 
 #### _{A responsive site + short desc.}, {Dec 2, 2016}_
 
-#### By _**Kyle Lange**_
+#### By _**Ellie Angell**_
 
 ![screenshot](Screen Shot.png)
 
@@ -27,7 +27,7 @@ _There are no known bugs as of the last commit. Please send an ISSUE on github i
 
 ## Support and contact details
 
-For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)__
+For questions or comments, please __email  [Ellie here.](elliea915@gmail.com)__
 
 ## Technologies Used
 
@@ -37,7 +37,7 @@ For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)
 
 ### License
 
-Copyright (c) 2016 **_Kyle Lange_**
+Copyright (c) 2016 **_Ellie Angell_**
 
 This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
