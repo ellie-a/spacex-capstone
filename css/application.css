@@ -194,16 +194,63 @@ html {
     color: #444; }
 
 #typewritter {
-  color: black;
-  font-size: 25px;
+  color: white;
+  font-size: 30px;
   font-family: "Exo 2", sans-serif;
   letter-spacing: 5px;
   padding: 0;
-  margin-top: 5%;
+  margin-top: 15%;
   margin-left: 40%;
   white-space: nowrap;
   overflow: hidden;
   width: 30em;
   animation: type 4s steps(62, end); }
+
+.mission {
+  background-image: url("../img/background.jpg");
+  height: 600px;
+  background-position: 0;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.mission {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  background-color: #fff; }
+
+.mission img {
+  width: 100%;
+  height: 700px;
+  display: block;
+  object-fit: cover; }
+
+.mission:before, .mission:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+  padding-bottom: 3%; }
+
+.mission:before {
+  right: 50%;
+  -ms-transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -ms-transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
+  transform: skewX(45deg); }
+
+.mission:after {
+  left: 50%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -ms-transform: skewX(-45deg);
+  -webkit-transform: skewX(-45deg);
+  transform: skewX(-45deg); }
 
 /*# sourceMappingURL=application.css.map */
