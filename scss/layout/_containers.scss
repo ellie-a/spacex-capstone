@@ -37,23 +37,32 @@
 #about {
   padding: 0;
   margin: 0;
+
 }
 
-// .mission {
-//   background-image: url('../img/dragon-capsule.jpg');
-//   @include backg-img(150px, fixed, bottom, cover, no-repeat);
-//   z-index: -1;
-//   display: flex;
-//   align-items: center;
-// }
+.misson {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .mission-info {
-  // height: 400px;
-  // background-color: black;
-  p {
-    color: black;
-    font-family: $main;
-    padding: 0;
-    margin: 0;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+
+  .content {
+    width: 600px;
+    // border: 1px solid lighten($blue, 20%);
+    // border-radius: 20px;
+
+    p {
+      @include text($black, 16px, $main, 2px);
+      line-height: 120%;
+      padding: 4%;
+      margin: 0;
+    }
   }
+
 }
