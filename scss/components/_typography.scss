@@ -1,0 +1,13 @@
+#typewritter {
+  padding: 0;
+  font-family: $main;
+font-size: 20px;
+letter-spacing: 5px;
+margin: 0;
+margin-left: 40%;
+white-space: nowrap;
+overflow: hidden;
+width: 30em;
+animation: type 4s steps(62, end);
+color: black;
+}

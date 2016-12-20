@@ -15,6 +15,22 @@ html {
     text-shadow: 0 0 0px #aeeeee; }
   to {
     text-shadow: 0 0 25px #24acac; } }
+@keyframes type {
+  from {
+    width: 0; } }
+#typewritter {
+  padding: 0;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin: 0;
+  margin-left: 40%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(62, end);
+  color: black; }
+
 #index {
   background-image: url("../img/stars.jpg");
   background-color: black;
@@ -57,37 +73,10 @@ html {
   padding: 0;
   margin: 0; }
 
-.mission, .time-line {
-  background-image: url("../img/about3.jpg");
-  min-height: 400px;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1; }
-  .mission h1, .time-line h1 {
-    padding: 0;
-    margin: 0;
-    color: white; }
-
-.mission-info, .time-info {
-  height: 480px;
-  background: black; }
-  .mission-info p, .time-info p {
-    padding: 0;
-    margin: 0;
-    color: white; }
-
-.future {
-  background-image: url("../img/ref.jpg");
-  min-height: 550px;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1; }
-
-.future-info {
-  height: 250px; }
+.mission-info p {
+  color: black;
+  font-family: "Exo 2", sans-serif;
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=application.css.map */

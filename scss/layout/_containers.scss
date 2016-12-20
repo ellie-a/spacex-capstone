@@ -30,9 +30,6 @@
     animation-direction: alternate;
     animation-iteration-count: infinite;
   }
-  // a:hover {
-  //   text-shadow: 5px 4px 5px  rgb(174, 238, 238);
-  // }
 }
 
 //about page
@@ -42,47 +39,21 @@
   margin: 0;
 }
 
-.mission {
-  background-image: url('../img/about3.jpg');
-  @include backg-img(400px, fixed, top, cover, no-repeat);
-  z-index: -1;
-
-
-    h1 {
-      padding: 0;
-      margin: 0;
-      color: $white;
-    }
-}
+// .mission {
+//   background-image: url('../img/dragon-capsule.jpg');
+//   @include backg-img(150px, fixed, bottom, cover, no-repeat);
+//   z-index: -1;
+//   display: flex;
+//   align-items: center;
+// }
 
 .mission-info {
-  height: 480px;
-  background: black;
-
+  // height: 400px;
+  // background-color: black;
   p {
+    color: black;
+    font-family: $main;
     padding: 0;
     margin: 0;
-    color: $white;
   }
 }
-.time-line {
-  @extend .mission;
-}
-
-.time-info {
-  @extend .mission-info;
-}
-
-.future {
-  background-image: url('../img/ref.jpg');
-  @include backg-img(550px, fixed, top, cover, no-repeat);
-  z-index: -1;
-}
-
-.future-info {
-  height: 250px;
-}
-
-// .end {
-//   @extend .mission;
-// }
