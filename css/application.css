@@ -18,6 +18,16 @@ html {
 @keyframes type {
   from {
     width: 0; } }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 #index {
   background-image: url("../img/stars.jpg");
   background-color: black;
@@ -59,6 +69,14 @@ html {
 #about {
   padding: 0;
   margin: 0; }
+
+.container {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
 
 .misson {
   display: flex;
