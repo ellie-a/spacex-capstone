@@ -1,9 +1,9 @@
-@mixin positioning($width: null, $height: null, $position: null, $top: null, $left: null) {
+@mixin positioning($position: null, $top: null, $left: null, $width: null, $height: null) {
+  position: $position;
+  top: $top;
+  left: $left;
   width: $width;
   height: $height;
-  position: $position;
-  left: $left;
-  top: $top;
 }
 
 @mixin text($color: null, $font-sz: null, $font-fm: null, $letter-spc: null) {
