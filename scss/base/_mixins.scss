@@ -12,3 +12,12 @@
   font-family: $font-fm;
   letter-spacing: $letter-spc;
 }
+
+@mixin backg-img($min-h: null, $bck-attach: null, $bck-pos: null, $bck-sz: null, $bck-rp: null) {
+  min-height: $min-h;
+  background-attachment:$bck-attach;
+  background-position: $bck-pos;
+  background-size: $bck-sz;
+  background-repeat: $bck-rp;
+
+}

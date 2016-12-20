@@ -8,3 +8,12 @@
       background-position-y: -100%;
   }
 }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 0px $shadow;
+  }
+  to {
+    text-shadow: 0 0 25px darken($shadow, 40%);;
+  }
+}

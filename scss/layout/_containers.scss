@@ -21,10 +21,18 @@
     margin-top: 35%;
     @include text($white, 3em, $main, 5px);
     text-decoration: none;
+    -webkit-animation-duration: infinite;
+    -webkit-animation-name: glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
   }
-  a:hover {
-    text-shadow: 5px 4px 5px  rgb(174, 238, 238);
-  }
+  // a:hover {
+  //   text-shadow: 5px 4px 5px  rgb(174, 238, 238);
+  // }
 }
 
 //about page
@@ -36,11 +44,7 @@
 
 .mission {
     background-image: url('../img/about3.jpg');
-    min-height: 400px;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include backg-img(400px, fixed, top, cover, no-repeat);
     z-index: -1;
 
     h1 {
@@ -54,27 +58,15 @@
   height: 480px;
 }
 .time-line {
-  background-image: url('../img/about3.jpg');
-  min-height: 450px;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
+  @extend .mission;
 }
 
 .time-info {
-  height: 480px;
+  @extend .mission-info;
 }
 
 .future {
-  background-image: url('../img/about3.jpg');
-  min-height: 450px;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
+  @extend .mission;
 }
 
 .future-info {
@@ -82,11 +74,5 @@
 }
 
 .end {
-  background-image: url('../img/about3.jpg');
-height: 450px;
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
+  @extend .mission;
 }
