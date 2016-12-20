@@ -43,9 +43,10 @@
 }
 
 .mission {
-    background-image: url('../img/about3.jpg');
-    @include backg-img(400px, fixed, top, cover, no-repeat);
-    z-index: -1;
+  background-image: url('../img/about3.jpg');
+  @include backg-img(400px, fixed, top, cover, no-repeat);
+  z-index: -1;
+
 
     h1 {
       padding: 0;
@@ -56,6 +57,13 @@
 
 .mission-info {
   height: 480px;
+  background: black;
+
+  p {
+    padding: 0;
+    margin: 0;
+    color: $white;
+  }
 }
 .time-line {
   @extend .mission;
@@ -66,13 +74,15 @@
 }
 
 .future {
-  @extend .mission;
+  background-image: url('../img/ref.jpg');
+  @include backg-img(550px, fixed, top, cover, no-repeat);
+  z-index: -1;
 }
 
 .future-info {
-  height: 300px;
+  height: 250px;
 }
 
-.end {
-  @extend .mission;
-}
+// .end {
+//   @extend .mission;
+// }
