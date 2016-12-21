@@ -28,11 +28,6 @@ html {
     opacity: 0; }
   100% {
     opacity: 1; } }
-.falcon-9 img {
-  margin-top: -22%;
-  margin-left: 45%;
-  -webkit-transform: rotate(90deg); }
-
 #index {
   background-image: url("../img/stars.jpg");
   background-color: black;
@@ -117,6 +112,23 @@ html {
         letter-spacing: 2px;
         line-height: 135%;
         margin: 0; }
+  .container .falcon-9 {
+    display: flex;
+    margin: 5%; }
+    .container .falcon-9 .card {
+      display: flex;
+      color: white;
+      font-size: 15px;
+      font-family: "Exo 2", sans-serif;
+      margin-right: 10%;
+      width: 75%;
+      height: 350px;
+      background-color: #3B3DB6;
+      border-radius: 20px; }
+      .container .falcon-9 .card .content, .container .falcon-9 .card .image {
+        padding: 0 5% 5% 5%; }
+      .container .falcon-9 .card .image img {
+        height: 90%; }
 
 .time {
   margin-top: 10%;

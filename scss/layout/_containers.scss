@@ -55,10 +55,8 @@
       margin-top: 5%;
       display: flex;
       justify-content: space-around;
-
       .content {
         width: 600px;
-
         p {
           @include text($black, 25px, $main, 2px);
           line-height: 135%;
@@ -67,20 +65,17 @@
         }
       }
     }
+
     .time-info {
       margin-top: 5%;
-
       display: flex;
       justify-content: space-around;
-
       .slideshow {
         width: 500px;
         height: 300px;
       }
-
       .content {
         width: 600px;
-
         p {
           @include text($black, 20px, $main, 2px);
           line-height: 135%;
@@ -88,4 +83,24 @@
         }
       }
     }
+  .falcon-9 {
+    display: flex;
+    margin: 5%;
+
+    .card {
+      display: flex;
+      @include text($white, 15px, $main);
+      margin-right: 10%;
+      width: 75%;
+      height: 350px;
+      background-color: $blue;
+      border-radius: 20px;
+      .content, .image {
+        padding: 0 5% 5% 5%;
+      }
+      .image img {
+        height: 90%;
+      }
+    }
+  }
 }
