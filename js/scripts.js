@@ -15,8 +15,8 @@ function myFunction() {
  var player;
  function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
-     height: '300px',
-     width: '450px',
+     height: '325px',
+     width: '475px',
      controls: '0',
      videoId: 'Ndpxuf-uJHE',
      events: {

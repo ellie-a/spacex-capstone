@@ -38,55 +38,54 @@
   padding: 0;
   margin: 0;
 }
-.container {
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-          -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-          -webkit-animation-name: fadeIn;
-            animation-name: fadeIn;
-}
-
 .misson {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mission-info {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-around;
+.container {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 
-  .content {
-    width: 600px;
+    .mission-info {
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-around;
 
-    p {
-      @include text($black, 18px, $main, 2px);
-      line-height: 123%;
-      padding: 4%;
-      margin: 0;
+      .content {
+        width: 600px;
+
+        p {
+          @include text($black, 25px, $main, 2px);
+          line-height: 135%;
+          padding: 4%;
+          margin: 0;
+        }
+      }
     }
-  }
-}
-.time-info {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-around;
+    .time-info {
+      margin-top: 5%;
 
-  .slideshow {
-    margin-top: 1%;
-    width: 500px;
-    height: 300px;
-  }
+      display: flex;
+      justify-content: space-around;
 
-  .content {
-    width: 600px;
+      .slideshow {
+        width: 500px;
+        height: 300px;
+      }
 
-    p {
-      @include text($black, 18px, $main, 2px);
-      line-height: 123%;
-      padding: 4%;
-      margin: 0;
+      .content {
+        width: 600px;
+
+        p {
+          @include text($black, 20px, $main, 2px);
+          line-height: 135%;
+          margin: 0;
+        }
+      }
     }
-  }
 }

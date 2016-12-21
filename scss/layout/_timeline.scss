@@ -35,7 +35,7 @@ li {
 	float: left;
 	width: 150px;
 	transform: rotate(-45deg);
-  @include text($black, 14px, $main);
+  @include text($black, 16px, $main);
   font-weight: bold;
 
 }
@@ -58,7 +58,7 @@ li::before {
 	border-right: 2px solid rgba(0,0,0,.1);
 	border-bottom: 2px solid rgba(0,0,0,.1);
 	transform: rotate(45deg);
-	@include text($black, 13px, $main);
+	@include text($black, 16px, $main);
 	background: #fff;
 }
 .details::before {
