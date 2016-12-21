@@ -9,6 +9,12 @@
 .logo {
   @include positioning(absolute, 20%, 25%, 900px, 123px);
   background-image: url('../img/logo.png');
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
 .mars {
@@ -16,6 +22,12 @@
   background-image: url('../img/mars2.png');
   display: flex;
   justify-content: center;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 
   a {
     margin-top: 35%;
@@ -44,8 +56,8 @@
   align-items: center;
 }
 .container {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
@@ -112,7 +124,6 @@
           @include text($white, 100%, $main, 1px);
           line-height: 22.5px;
           padding: 0;
-          margin-left: 2.5%;
         }
       }
       .image  {
@@ -130,7 +141,15 @@
       }
     }
     .card:nth-of-type(2) {
-      margin-top: 2.5%;
+      margin-top: 2%;
+    }
+    .card:nth-of-type(3) {
+      margin-top: 2%;
+      p{
+        margin: 1% 0 0 0;
+        padding: 0;
+
+      }
     }
   }
 }
