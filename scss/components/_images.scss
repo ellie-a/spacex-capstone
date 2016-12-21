@@ -2,8 +2,15 @@
   .card {
     .image{
       img:hover {
+        height: .5%;
         -webkit-transform: rotate(90deg);
-        height: 45%;
+      }
+    }
+  }
+  .card:nth-of-type(5) {
+    .image{
+      img:hover {
+        -webkit-transform: scale(1.1);
       }
     }
   }

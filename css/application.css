@@ -29,8 +29,10 @@ html {
   100% {
     opacity: 1; } }
 .falcon-9 .card .image img:hover {
-  -webkit-transform: rotate(90deg);
-  height: 45%; }
+  height: .5%;
+  -webkit-transform: rotate(90deg); }
+.falcon-9 .card:nth-of-type(5) .image img:hover {
+  -webkit-transform: scale(1.1); }
 
 #index {
   background-image: url("../img/stars.jpg");
@@ -97,7 +99,8 @@ html {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
+  animation-name: fadeIn;
+  margin-bottom: 2%; }
   .container .mission-info {
     margin-top: 5%;
     display: flex;
@@ -155,13 +158,13 @@ html {
         font-size: 100%;
         font-family: "Exo 2", sans-serif;
         letter-spacing: 1px;
-        line-height: 22.5px;
+        line-height: 135%;
         padding: 0; }
       .container .falcon-9 .card .image img {
         height: 90%; }
       .container .falcon-9 .card .image p {
         color: white;
-        font-size: 80%;
+        font-size: 70%;
         font-family: "Exo 2", sans-serif;
         letter-spacing: 1px;
         padding: 0;
@@ -170,28 +173,37 @@ html {
         padding-top: 2%; }
     .container .falcon-9 .card:nth-of-type(2) {
       margin-top: 2%; }
-    .container .falcon-9 .card:nth-of-type(3) {
+    .container .falcon-9 .card:nth-of-type(3), .container .falcon-9 .card:nth-of-type(4) {
       margin-top: 2%; }
-      .container .falcon-9 .card:nth-of-type(3) .content {
+      .container .falcon-9 .card:nth-of-type(3) .content, .container .falcon-9 .card:nth-of-type(4) .content {
         width: 65%; }
-        .container .falcon-9 .card:nth-of-type(3) .content p {
+        .container .falcon-9 .card:nth-of-type(3) .content p, .container .falcon-9 .card:nth-of-type(4) .content p {
+          font-size: 100%;
           margin: 1% 0 0 0;
-          padding: 0; }
-      .container .falcon-9 .card:nth-of-type(3) .image h3 {
+          padding: 0;
+          line-height: 125%; }
+      .container .falcon-9 .card:nth-of-type(3) .image h3, .container .falcon-9 .card:nth-of-type(4) .image h3 {
         color: white;
         font-size: 120%;
         font-family: "Exo 2", sans-serif;
         margin: 0;
         padding: 0;
         border-bottom: 1px solid white; }
-      .container .falcon-9 .card:nth-of-type(3) .image h3:nth-of-type(1n+1) {
+      .container .falcon-9 .card:nth-of-type(3) .image h3:nth-of-type(1n+1), .container .falcon-9 .card:nth-of-type(4) .image h3:nth-of-type(1n+1) {
         margin-top: 10%; }
-      .container .falcon-9 .card:nth-of-type(3) .image p {
+      .container .falcon-9 .card:nth-of-type(3) .image p, .container .falcon-9 .card:nth-of-type(4) .image p {
         color: white;
         font-size: 110%;
         font-family: "Exo 2", sans-serif;
         margin-top: 0;
         padding: 2.5% 0 0 0; }
+    .container .falcon-9 .card:nth-of-type(4) {
+      height: 15%; }
+    .container .falcon-9 .card:nth-of-type(5) {
+      margin-top: 2%; }
+      .container .falcon-9 .card:nth-of-type(5) p {
+        margin-top: 5%;
+        line-height: 150%; }
 
 .time {
   margin-top: 10%;
