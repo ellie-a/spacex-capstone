@@ -18,8 +18,9 @@
 }
 
 .mars {
-  @include positioning(absolute, 40%, 29%, 700px, 700px);
+  @include positioning(absolute, 40%, 27%, 700px, 700px);
   background-image: url('../img/mars2.png');
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   -webkit-animation-duration: 5s;
@@ -55,6 +56,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .container {
   -webkit-animation-duration: 6s;
   animation-duration: 6s;
