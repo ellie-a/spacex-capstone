@@ -314,44 +314,66 @@ html {
   overflow: hidden;
   width: 30em;
   animation: type 4s steps(62, end); }
+  @media screen and (max-width: 1065px) {
+    #typewritter {
+      margin-top: 20%;
+      margin-left: 35%;
+      height: 25%; } }
 
-.mission {
-  background-image: url("../img/background.jpg");
-  height: 600px;
-  background-position: 0;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  margin: 0;
-  background-color: #fff; }
+@media screen and (max-width: 1065px) {
+  .mission {
+    background-image: url("../img/background.jpg");
+    height: 600px;
+    background-color: #fff;
+    width: 100%; } }
+@media screen and (min-width: 768px) {
+  .mission {
+    background-image: url("../img/background.jpg");
+    height: 600px;
+    background-position: 0;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    background-color: #fff; } }
 
-.mission:before, .mission:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: inherit;
-  padding-bottom: 3%; }
+@media screen and (min-width: 768px) {
+  .mission:before, .mission:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: inherit;
+    padding-bottom: 3%;
+    opacity: 1; } }
+@media screen and (max-width: 1065px) {
+  .mission:before, .mission:after {
+    display: none; } }
 
-.mission:before {
-  right: 50%;
-  -ms-transform-origin: 100% 100%;
-  -webkit-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-  -ms-transform: skewX(45deg);
-  -webkit-transform: skewX(45deg);
-  transform: skewX(45deg); }
+@media screen and (max-width: 1065px) {
+  .mission:before {
+    display: none; } }
+@media screen and (min-width: 768px) {
+  .mission:before {
+    right: 50%;
+    -ms-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -ms-transform: skewX(45deg);
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg); } }
 
-.mission:after {
-  left: 50%;
-  -ms-transform-origin: 0 100%;
-  -webkit-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-  -ms-transform: skewX(-45deg);
-  -webkit-transform: skewX(-45deg);
-  transform: skewX(-45deg); }
+@media screen and (min-width: 768px) {
+  .mission:after {
+    left: 50%;
+    -ms-transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -ms-transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg); } }
 
 /*# sourceMappingURL=application.css.map */
