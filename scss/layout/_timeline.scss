@@ -70,6 +70,12 @@ li::before {
 	border-top: 0;
 }
 
+li:last-of-type {
+  @media screen and #{$brk-md} {
+    display:none;
+  }
+}
+
 /* ---- Hover effects ---- */
 
 li:hover {
