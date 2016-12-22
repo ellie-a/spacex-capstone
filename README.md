@@ -1,4 +1,4 @@
-# _App Name_
+# _SpaceX Capstone_
 
 #### _{A responsive site + short desc.}, {Dec 22, 2016}_
 
