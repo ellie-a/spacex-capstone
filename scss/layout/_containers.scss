@@ -2,7 +2,7 @@
 
 #index {
   background-image: url('../img/stars.jpg');
-  background-color: black;
+  background-color: $black;
   animation:   space-animation 60s linear infinite;
 }
 
@@ -63,7 +63,6 @@
   animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
-
   margin-bottom: 2%;
 
     .mission-info {
