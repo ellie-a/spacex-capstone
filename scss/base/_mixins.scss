@@ -19,5 +19,9 @@
   background-position: $bck-pos;
   background-size: $bck-sz;
   background-repeat: $bck-rp;
-
+}
+@mixin size($margin: null, $padding: null, $line-h: null) {
+  margin: $margin;
+  padding: $padding;
+  line-height: $line-h;
 }

@@ -48,8 +48,7 @@
 //about page
 
 #about {
-  padding: 0;
-  margin: 0;
+  @include size(0,0);
 }
 .misson {
   display: flex;
@@ -70,30 +69,35 @@
     .mission-info {
       margin-top: 5%;
       display: flex;
-      justify-content: space-around;
       .content {
-        width: 600px;
+        width: 45%;
         p {
           @include text($black, 2vw, $main, 2px);
-          line-height: 135%;
-          padding: 4%;
-          margin: 0;
+          @include size(0 5% 0 15%, 0, 135%);
+
+          @media screen and #{$brk-ipad} {
+            line-height: 3vh;
+            font-weight: 400;
+          }
         }
       }
+      .video {
+        margin-left: 5%;
+        width: 45%;
+        height: 350px;
+      }
     }
-
     .time-info {
-      margin-top: 5%;
+      margin: 5%;
       display: flex;
-      justify-content: space-around;
       text-align: justify;
-      .slideshow {
-        .myslides {
-          width: 200%;
-        }
+      .video {
+        width: 45%;
+        height: 350px;
       }
       .content {
         width: 600px;
+        margin-left: 6%;
         p {
           @include text($black, 1.5vw, $main, 2px);
           line-height: 135%;
@@ -123,13 +127,11 @@
       .content {
         h2 {
           @include text($white, 175%, $main, 3px);
-          padding: 0;
-          margin: 0;
+          @include size(0, 0);
         }
         p{
           @include text($white, 100%, $main, 1px);
-          line-height: 135%;
-          padding: 0;
+          @include size(1%, 0, 135%);
         }
       }
       .image  {
@@ -138,8 +140,7 @@
         }
         p {
           @include text($white, 70%, $main, 1px);
-          padding: 0;
-          margin: 0;
+          @include size(0, 0);
         }
         p {
           padding-top: 2%;
@@ -157,16 +158,13 @@
 
         p{
           font-size: 100%;
-          margin: 1% 0 0 0;
-          padding: 0;
-          line-height: 125%;
+          @include size(1% 0 0 0, 0, 125%);
         }
       }
       .image {
         h3 {
           @include text($white, 120%, $main);
-          margin: 0;
-          padding: 0;
+          @include size(0, 0);
           border-bottom: 1px solid $white;
         }
         h3:nth-of-type(1n+1) {
@@ -174,8 +172,7 @@
         }
         p {
           @include text($white, 110%, $main);
-          margin-top: 0;
-          padding: 2.5% 0 0 0;
+          @include size(0, 2.5% 0 0 0);
         }
       }
     }

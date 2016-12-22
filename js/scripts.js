@@ -20,9 +20,7 @@ function myFunction() {
      'controls': 0,
      'autohide': 1,
      'showinfo': 0,
-     height: '325px',
-     width: '475px',
-     videoId: 'Ndpxuf-uJHE',
+     videoId: 'ujX6CuRELFE',
      events: {
        'onReady': onPlayerReady,
        'onStateChange': onPlayerStateChange
@@ -50,17 +48,17 @@ function myFunction() {
 
  //slideshow
 
- var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 3000);
-}
+//  var slideIndex = 0;
+// carousel();
+//
+// function carousel() {
+//     var i;
+//     var x = document.getElementsByClassName("mySlides");
+//     for (i = 0; i < x.length; i++) {
+//       x[i].style.display = "none";
+//     }
+//     slideIndex++;
+//     if (slideIndex > x.length) {slideIndex = 1}
+//     x[slideIndex-1].style.display = "block";
+//     setTimeout(carousel, 3000);
+// }

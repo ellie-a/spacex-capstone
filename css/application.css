@@ -86,8 +86,8 @@ html {
     animation-iteration-count: infinite; }
 
 #about {
-  padding: 0;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 .misson {
   display: flex;
@@ -104,27 +104,35 @@ html {
   margin-bottom: 2%; }
   .container .mission-info {
     margin-top: 5%;
-    display: flex;
-    justify-content: space-around; }
+    display: flex; }
     .container .mission-info .content {
-      width: 600px; }
+      width: 45%; }
       .container .mission-info .content p {
         color: black;
         font-size: 2vw;
         font-family: "Exo 2", sans-serif;
         letter-spacing: 2px;
-        line-height: 135%;
-        padding: 4%;
-        margin: 0; }
+        margin: 0 5% 0 15%;
+        padding: 0;
+        line-height: 135%; }
+        @media screen and (max-width: 900px) {
+          .container .mission-info .content p {
+            line-height: 3vh;
+            font-weight: 400; } }
+    .container .mission-info .video {
+      margin-left: 5%;
+      width: 45%;
+      height: 350px; }
   .container .time-info {
-    margin-top: 5%;
+    margin: 5%;
     display: flex;
-    justify-content: space-around;
     text-align: justify; }
-    .container .time-info .slideshow .myslides {
-      width: 200%; }
+    .container .time-info .video {
+      width: 45%;
+      height: 350px; }
     .container .time-info .content {
-      width: 600px; }
+      width: 600px;
+      margin-left: 6%; }
       .container .time-info .content p {
         color: black;
         font-size: 1.5vw;
@@ -152,15 +160,16 @@ html {
         font-size: 175%;
         font-family: "Exo 2", sans-serif;
         letter-spacing: 3px;
-        padding: 0;
-        margin: 0; }
+        margin: 0;
+        padding: 0; }
       .container .falcon-9 .card .content p {
         color: white;
         font-size: 100%;
         font-family: "Exo 2", sans-serif;
         letter-spacing: 1px;
-        line-height: 135%;
-        padding: 0; }
+        margin: 1%;
+        padding: 0;
+        line-height: 135%; }
       .container .falcon-9 .card .image img {
         height: 90%; }
       .container .falcon-9 .card .image p {
@@ -168,8 +177,8 @@ html {
         font-size: 70%;
         font-family: "Exo 2", sans-serif;
         letter-spacing: 1px;
-        padding: 0;
-        margin: 0; }
+        margin: 0;
+        padding: 0; }
       .container .falcon-9 .card .image p {
         padding-top: 2%; }
     .container .falcon-9 .card:nth-of-type(2) {
@@ -196,7 +205,7 @@ html {
         color: white;
         font-size: 110%;
         font-family: "Exo 2", sans-serif;
-        margin-top: 0;
+        margin: 0;
         padding: 2.5% 0 0 0; }
     .container .falcon-9 .card:nth-of-type(4) {
       height: 15%; }
@@ -210,6 +219,9 @@ html {
   margin-top: 10%;
   /* ---- Details ---- */
   /* ---- Hover effects ---- */ }
+  @media screen and (max-width: 900px) {
+    .time {
+      display: none; } }
   .time ol {
     position: relative;
     height: 4px;

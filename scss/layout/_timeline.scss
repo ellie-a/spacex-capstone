@@ -1,6 +1,9 @@
 .time {
 
   margin-top: 10%;
+  @media screen and #{$brk-ipad} {
+    display: none;
+  }
 
   ol {
     @include positioning(relative, $height: 4px);
