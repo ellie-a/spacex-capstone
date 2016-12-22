@@ -10,7 +10,7 @@
 ## Description
  This week's code review must include: A capstone project of our choosing. I have chosen to redo the SpaceX website.
 
- See it live [here](https://github.com/ellie-a/spacex-capstone)
+ See it live [here](https://ellie-a.github.io/spacex-capstone)
 
 
 ## Setup/Installation Requirements
