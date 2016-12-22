@@ -1,6 +1,6 @@
 # _SpaceX Capstone_
 
-#### _{A responsive site + short desc.}, {Dec 22, 2016}_
+#### _Dec 22, 2016_
 
 #### By _**Ellie Angell**_
 
@@ -9,6 +9,8 @@
 
 ## Description
  This week's code review must include: A capstone project of our choosing. I have chosen to redo the SpaceX website.
+
+ See it live [here](https://github.com/ellie-a/spacex-capstone)
 
 
 ## Setup/Installation Requirements
