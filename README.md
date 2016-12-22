@@ -1,6 +1,6 @@
 # _App Name_
 
-#### _{A responsive site + short desc.}, {Dec 2, 2016}_
+#### _{A responsive site + short desc.}, {Dec 22, 2016}_
 
 #### By _**Ellie Angell**_
 
@@ -8,12 +8,12 @@
 
 
 ## Description
- This week's code review must include:
+ This week's code review must include: A capstone project of our choosing. I have chosen to redo the SpaceX website.
 
 
 ## Setup/Installation Requirements
 
-1. Download this repo using your terminal: git clone repo-name pasted here
+1. Download this repo: (https://github.com/ellie-a/spacex-capstone)  using your terminal: git clone repo-name pasted here
 
 2. View the code by drag-and-dropping the file into your [favorite text editor](https://atom.io)
 
@@ -23,7 +23,7 @@ Install Sass/Bourbon/Neat:
 
 ## Known Bugs
 
-_There are no known bugs as of the last commit. Please send an ISSUE on github in the repository if you see something I have not._
+_So far not responsive_
 
 ## Support and contact details
 
